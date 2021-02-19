@@ -23,5 +23,13 @@ class GroovyTut{
         println("age-- " + (age--));
         println("--age " + (--age));
         
+        println("Biggest Int " + Integer.MAX_VALUE);
+        println("Smallest Int " + Integer.MIN_VALUE);
+        
+        println("Biggest Int " + Float.MAX_VALUE);
+        println("Smallest Int " + Float.MIN_VALUE);
+        
+        println("Biggest Int " + Double.MAX_VALUE);
+        println("Smallest Int " + Double.MIN_VALUE);
     }
 }
