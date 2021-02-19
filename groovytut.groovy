@@ -31,9 +31,10 @@ class GroovyTut{
         println("Biggest Int " + Double.MAX_VALUE);
         println("Smallest Int " + Double.MIN_VALUE);
         
+        def randNum = 2.0;
         println("Math.round(2.45) = " + (Math.round(2.45)));
         println("randNum.pow(3) = " + (randNum.pow(3)));
-        println("3.0 equals(2.0) = " + (3.0.equals(2.0)));
+        println("3.0.equals(2.0) = " + (3.0.equals(2.0)));
         println("randNum.equals(Float.NaN) = " + (randNum.equals(Float.NaN)));
         println("Math.sqrt(9) " + (Math.sqrt(9)));
         println("Math.cbrt(27) = " + (Math.cbrt(27)));
@@ -51,6 +52,6 @@ class GroovyTut{
         // sin, cos, tan, asin, acos, atan, sinh, cosh, tanh
     
         println("Math.sin(0.5 * Math.PI) = " + (Math.sin(0.5 * Math.PI)));
-        println("Math.abs(New Random().nextInt() % 100) + 1 = " + (Math.abs(New Random().nextInt() % 100) + 1));
+        println("Math.abs(new Random().nextInt() % 100) + 1 = " + (Math.abs(new Random().nextInt() % 100) + 1));
     }
 }
