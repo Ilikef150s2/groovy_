@@ -14,7 +14,7 @@ class GroovyTut{
      println("3rd Index of Name" = name[3]);
      println("Index of r " + name.indexOf('r'));
      
-     println(1st 3 Chars " + name[0..2]);
+     println("1st 3 Chars " + name[0..2]);
      
      println (multiString)
   }
