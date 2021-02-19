@@ -12,7 +12,7 @@ class GroovyTut{
         println("5 % 4 = " + (5 % 4));
         println("5.5 + 4.6 = " + (5.5 + 4.6));
         
-        println("5.2 + 4.4 = " + (5.2.plus(4)));
+        println("5.2 + 4.4 = " + (5.2.plus(4.4)));
         println("5 - 4 = " + (5.2.minus(4)));
         println("5 * 4 = " + (5.multiply(4)));
         println("5 / 4 = " + (5 / 4));
@@ -49,7 +49,7 @@ class GroovyTut{
         println("Math.toRadians(90) = " + (Math.toRadians(90)));
         
         // sin, cos, tan, asin, acos, atan, sinh, cosh, tanh
-        
+    
         println("Math.sin(0.5 * Math.PI) = " + (Math.sin(0.5 * Math.PI)));
         println("Math.abs(New Random().nextInt() % 100) + 1 = " + (Math.abs(New Random().nextInt() % 100) + 1));
     }
