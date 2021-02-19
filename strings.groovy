@@ -12,7 +12,7 @@ class GroovyTut{
      //Triple quotes, used for multiline string. It prints it exactly as its typed.
      
      println("3rd Index of Name" = name[3]);
-     println(Index of r " + name.indexOf('r'));
+     println("Index of r " + name.indexOf('r'));
      
      println(1st 3 Chars " + name[0..2]);
      
