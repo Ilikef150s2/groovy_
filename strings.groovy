@@ -11,8 +11,8 @@ class GroovyTut{
      //Double quotes will print the Derek
      //Triple quotes, used for multiline string. It prints it exactly as its typed.
      
-     println("3rd Index of name" = name[3]);
-     println(Index of r " + name.indexOf('r));
+     println("3rd Index of Name" = name[3]);
+     println(Index of r " + name.indexOf('r'));
      
      println(1st 3 Chars " + name[0..2]);
      
