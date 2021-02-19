@@ -52,5 +52,6 @@ class GroovyTut{
         // sin, cos, tan, asin, acos, atan, sinh, cosh, tanh
         
         println("Math.sin(0.5 * Math.PI) = " + (Math.sin(0.5 * Math.PI)));
+        println("Math.abs(New Random().nextInt() % 100) + 1 = " + (Math.abs(New Random().nextInt() % 100) + 1));
     }
 }
