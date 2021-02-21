@@ -8,6 +8,10 @@
   printf("A %s string \n", randString);
  
   // Use multiple values
+  //The - sign with the 10s creates spaces to the right from the first item on the
+  //listen, while the 10s gives spaces to the left.
+  //.2f = defines two decimals. Where the "f" mean floating
+  //"d" means integer.
   printf("%-10s %d %.2f %10s \n", ['Stuff', 10, 1.234, 'Random']);
  
   /*
