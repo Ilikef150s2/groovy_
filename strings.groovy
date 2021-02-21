@@ -27,10 +27,12 @@ class GroovyTut{
     println("My Name " + name);
     println("My Name ".concat(name));
  
-  
+    //It doubles whatever u printing
+    //repeatStr
     def repeatStr = "What I said is " * 2;
     println(repeatStr);
- 
+
+    //Checks if the 2 values are the same and throws true or false
      println("Derek == Derek : " + ('Derek'.equals('Derek')));
      println("Derek == derek : " + ('Derek'.equalsIgnoreCase('derek')));
  
