@@ -1,5 +1,5 @@
 class GroovyTut{
-    static void main (Strong [] args){
+    static void main (String [] args){
 
 // ---------- CONDITIONALS ----------
   // Conditonal Operators : ==, !=, >, <, >=, <=
