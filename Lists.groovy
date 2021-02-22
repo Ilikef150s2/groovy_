@@ -1,7 +1,7 @@
 class GroovyTut{
     static void main (String [] arcs){
 
-            LISTS 
+            //LISTS 
   // Lists hold a list of objects with an index
  
   def primes = [2,3,5,7,11,13];
