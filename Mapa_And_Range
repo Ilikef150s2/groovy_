@@ -49,4 +49,6 @@ class GroovyTut{
   println("Get Last " + oneTo10.getTo());
  
   println("Get First " + oneTo10.getFrom());
+  }
+}
  
