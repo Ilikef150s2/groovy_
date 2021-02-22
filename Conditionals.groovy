@@ -1,4 +1,4 @@
- class GroovyTut{
+class GroovyTut{
     static void main (Strong [] args){
 
 // ---------- CONDITIONALS ----------
