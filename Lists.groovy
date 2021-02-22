@@ -1,4 +1,7 @@
-               LISTS
+class GroovyTut{
+    Static void main (String [] arcs){
+
+            LISTS 
   // Lists hold a list of objects with an index
  
   def primes = [2,3,5,7,11,13];
@@ -8,7 +11,7 @@
   println("3rd Prime " + primes.get(2));
  
   // They can hold anything. 
-  // A previously def variable or numbers 
+  // A previously def variable and/or numbers 
   def employee = ['Derek', 40, 6.25, [1,2,3]];
  
   println("2nd Number " + employee[3][1]);
@@ -48,4 +51,6 @@
  
   // Pop last item
   println("Last " + primes.pop());
+} 
+}
  
