@@ -1,5 +1,5 @@
 class GroovyTut{
-    Static void main (String [] arcs){
+    static void main (String [] arcs){
 
             LISTS 
   // Lists hold a list of objects with an index
@@ -53,4 +53,3 @@ class GroovyTut{
   println("Last " + primes.pop());
 } 
 }
- 
