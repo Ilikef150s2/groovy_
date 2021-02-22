@@ -1,6 +1,10 @@
-         //OUTPUT
+class GroovyTut{
+    static void main (String[] args){
+
+     //OUTPUT
 
 //With double quotes we can insert variables
+  
   def randString = "Random";
   println("A $randString string");
  
